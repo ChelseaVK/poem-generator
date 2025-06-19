@@ -7,40 +7,43 @@
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI Poem Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the poem."
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        How I linger to admire, admire, admire
-        <br />
-        the things of this world that are kind, and maybe also troubled-
-      </div>
-    </main>
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/ChelseaVK" target="_blank"
-        >Chelsea Van Klaveren</a
-      >
-      and is
-      <a href="https://github.com/ChelseaVK/poem-generator" target="_blank"
-        >open-sourced on GitHub</a
-      >
-      and is hosted on
-      <a href="https://poem-generator-aiproject.netlify.app/" target="_blank"
-        >Netlify.</a
-      >
-    </footer>
+    <div class="container">
+      <header>
+        <h1>AI Poem Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the poem."
+            autofocus
+            required
+            autocomplete="off"
+            class="prompt"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          How I linger to admire, admire, admire
+          <br />
+          the things of this world that are kind, and maybe also troubled-
+        </div>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/ChelseaVK" target="_blank"
+          >Chelsea Van Klaveren</a
+        >
+        and is
+        <a href="https://github.com/ChelseaVK/poem-generator" target="_blank"
+          >open-sourced on GitHub</a
+        >
+        and is hosted on
+        <a href="https://poem-generator-aiproject.netlify.app/" target="_blank"
+          >Netlify.</a
+        >
+      </footer>
+    </div>
     <script src="src/function.js"></script>
   </body>
 </html>
