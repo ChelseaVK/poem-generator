@@ -1,1 +1,13 @@
+function generatePoem(event) {
+  event.preventDefault();
+  alert("Generating poem...");
+  new Typewriter("#poem", {
+    strings: "Hello sun in my face hello you who make the morning...",
+    autoStart: true,
+    delay: 1,
+    cursor: "",
+  });
+}
 
+let poemFormElement = document.querySelector("#poem-generator-form");
+poemFormElement.addEventListener("submit", generatePoem);
